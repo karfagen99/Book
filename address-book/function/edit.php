@@ -13,6 +13,7 @@ if ($_GET['id'] != null) {
 	if ($_GET['id'] != 0) {
 		$res = selectPeopleById($_GET['id']);
 		?>
+		<body bgcolor="khaki" leftmargin="40" topmargin="10">
 		<form method="post" action="edit.php">
 			<input name="id" value="<?=$_GET['id']?>" hidden>
 			<label>Введите фамилию, имя и отчество:</label><br>

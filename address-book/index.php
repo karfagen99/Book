@@ -17,6 +17,7 @@ if ($_POST['search'] == 'fio') {
 		<meta charset="utf-8">
 		<title>Телефонный справочник</title>
 	</head>
+	<body bgcolor="khaki" leftmargin="40" topmargin="10">
 		     <table width="490" bgcolor="#D2691E" border="2" align="center">
 			<tr>
 				<p>
